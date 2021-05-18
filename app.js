@@ -40,7 +40,7 @@ btn.addEventListener('click', () => {
             guess.classList.toggle('hidden');
             guess.value = "";
         } else {
-            msg.innerHTML = `Sorry! Boss <br> It's not Correct.plz try again ${newWords}`;
+            msg.innerHTML = `Sorry! Boss <br> It's not Correct.plz try again ${randWords}`;
             guess.value = "";
         }
     }
